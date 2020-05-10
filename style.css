@@ -1,0 +1,211 @@
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+.backside{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    background-color: #316DC3;
+}
+
+.header{
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+    background-color: #316DC3;
+    color: whitesmoke;
+}
+
+.web{
+    margin: 0px 9px 0px 9px;
+}
+
+.button{
+    color: rgb(158, 154, 154);
+    font-size: 11px;
+    margin: 0px 4px 0px 4px;
+    padding: 5px 8px 5px 8px;
+}
+
+.logo{
+    margin: 2px 300px 2px 80px;
+}
+
+.dropdown-item{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 20px ;
+}
+
+.nav-link:hover{
+    background-color: #316DC3;
+    color: whitesmoke !important;
+}
+
+.headline{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 1000px;
+    padding: 4px 0px 4px 0px;
+    background-color: #316DC3;
+    color: whitesmoke;
+}
+
+.color{
+    display: inline;
+    color: green;
+    font-family: 'Merriweather', serif;
+}
+
+.h1{
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Merriweather', serif;    
+    color: #316DC3;
+    font-size: 32px !important;
+    font-weight: bolder !important;
+} 
+.introduction{
+    padding: 10px 200px 10px 200px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(133, 131, 131);
+    line-height: 28px;
+}
+
+.center{
+    font-family: 'Merriweather', serif;
+    width: 300px;
+    padding: 60px 12px 60px 12px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(31, 85, 248);
+    color: white;
+}
+
+.doing1,.doing2{
+    margin: 15px 15px 15px 15px;
+    color: #316DC3;
+    background-color: white;
+    box-shadow: 3px 3px 20px rgb(197, 197, 197);
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    width: 365px;
+    padding: 40px ;
+    display: inline-block;
+}
+
+.pro{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project{
+    margin: 80px 0px 80px 80px;
+}
+.mission{
+    color: #316DC3;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 15px 10px 0px;
+}
+
+.project1,.project2{
+    
+    border: 1px solid rgb(240, 237, 237);
+    margin: 10px 10px 10px 0px;
+    color: #316DC3;
+    background-color: whitesmoke;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    width: 350px;
+    padding: 22px 30px 22px 12px;
+    display: inline-block;
+} 
+
+.events1{
+    font-size: 15px;
+    width: 300px ;
+    color: rgb(133, 131, 131);
+}
+.events2{
+    font-size: 15px;
+    padding-top: 20px;
+    color: rgb(133, 131, 131);
+    width: 300px;
+}
+
+.images{
+    padding: 15px 115px 200px 115px ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px;
+    background-color:#333333 ;
+}
+
+.contacts{
+    line-height: 32px;
+    color: rgb(184, 179, 179);
+    background-color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 50px 0px 0px;
+    font-size: 14px;
+}
+
+.links{
+    background-color: #333333;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    width: 460px;
+    
+}
+
+.connect{ 
+    background-color: #333333;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+}
+
+.web1{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0px 0px 0px;
+}
+
+.copy{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #316DC3;
+    color: whitesmoke;
+    font-size: 11px;
+    padding: 20px;
+    padding-left: 80px;
+}
+@media only screen and (max-width:600px) {
+    div>div>div>img{
+        width: 120px;
+        height: 180px; 
+    }
+    .introduction {
+        padding: 10px 50px 10px 50px;
+    }
+
+
+}
+
