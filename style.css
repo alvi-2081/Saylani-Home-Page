@@ -203,6 +203,35 @@ body{
         height: 180px; 
     }
     .introduction {
+        padding: 10px 30px 20px 30px;
+    }
+    .doing1,.doing2{
+        width: 250px;
+        padding: 20px ;
+        display: inline-block;
+    }
+    .project1,.project2{
+        margin: 8px 25px 8px 28px;
+        font-size: 15px;
+        width: 250px;
+        padding: 22px 30px 22px 12px;
+        display: inline-block;
+    }
+    .img1{
+        width: 60px;
+        height: 60px;
+    }
+    .img2{
+        width: 20px;
+        height: 20px;
+    }
+    .project{
+        margin: 20px 10px 20px 10px;
+    }
+    .footer{        
+        padding: 60px 20px 60px 20px;
+    }
+    .images{
         padding: 10px 50px 10px 50px;
     }
 
